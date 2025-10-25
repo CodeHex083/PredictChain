@@ -41,7 +41,7 @@ class ClientTransactionMonitor(utils.TransactionMonitor):
         """Stores queue of recent transactions for the user to see"""
 
     def process_incoming(self, txn: dict[str, Any]):
-        """Processes the latest incoming transactions to the user
+        """Processes the latest incoming transactions to the users
 
         :param txn: The incoming transaction dictionary"""
 
